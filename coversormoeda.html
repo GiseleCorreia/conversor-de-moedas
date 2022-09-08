@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="conversormoeda.css" rel="stylesheet" />
+    <title>Conversor de Moedas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Conversor de Moedas</h1>
+      <p class="page-subtitle">
+        Vamos descobrir o quanto seu dindin está valendo!
+      </p>
+      <br /><br />
+      <label for="moeda">Insira o valor em Real</label><br />
+      <input type="number" id="valor" size="2" /><br />
+      <button type="submit" onclick="converterDolar()">
+        Converter para Dólar
+      </button>
+      <button type="submit" onclick="converterEuro()">
+        Converter para Euro
+      </button>
+      <button type="submit" onclick="converterBiticoin()">
+        Converter para Biticoin
+      </button>
+
+      <h2 id="valorConvertido"></h2>
+    </div>
+  </body>
+  <script src="conversormoeda.js"></script>
+</html>
